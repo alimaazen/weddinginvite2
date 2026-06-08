@@ -17,7 +17,7 @@ const CountdownTimer = () => {
   });
 
   useEffect(() => {
-    const weddingDate = new Date("2026-07-30T18:00:00").getTime();
+    const weddingDate = new Date("2026-07-19T18:00:00").getTime();
 
     const timer = setInterval(() => {
       const now = new Date().getTime();
